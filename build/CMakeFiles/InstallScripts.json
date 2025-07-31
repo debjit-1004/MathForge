@@ -1,0 +1,17 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/shadow/projects/MathForge/build/cmake_install.cmake",
+		"/home/shadow/projects/MathForge/build/src/core/cmake_install.cmake",
+		"/home/shadow/projects/MathForge/build/src/lexer/cmake_install.cmake",
+		"/home/shadow/projects/MathForge/build/src/parser/cmake_install.cmake",
+		"/home/shadow/projects/MathForge/build/src/ast/cmake_install.cmake",
+		"/home/shadow/projects/MathForge/build/src/semantic/cmake_install.cmake",
+		"/home/shadow/projects/MathForge/build/src/proof/cmake_install.cmake",
+		"/home/shadow/projects/MathForge/build/src/codegen/cmake_install.cmake",
+		"/home/shadow/projects/MathForge/build/src/cli/cmake_install.cmake",
+		"/home/shadow/projects/MathForge/build/tests/cmake_install.cmake",
+		"/home/shadow/projects/MathForge/build/examples/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

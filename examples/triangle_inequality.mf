@@ -1,0 +1,24 @@
+lemma triangle_inequality:
+  ∀ a, b, c : ℝ⁺, (triangle(a, b, c) → a + b > c ∧ b + c > a ∧ a + c > b)
+
+proof:
+  assume a, b, c : ℝ⁺
+  assume triangle(a, b, c)
+  
+  by contradiction:
+    assume ¬(a + b > c)
+    then a + b ≤ c
+    
+    by geometric_impossibility:
+      if a + b ≤ c then ¬triangle(a, b, c)
+      contradiction with triangle(a, b, c)
+    
+  therefore a + b > c
+  
+  by symmetry:
+    similar_argument(b, c, a) → b + c > a
+    similar_argument(a, c, b) → a + c > b
+    
+  therefore:
+    a + b > c ∧ b + c > a ∧ a + c > b
+QED

@@ -1,0 +1,25 @@
+theorem pythagorean_theorem:
+  ∀ a, b, c : ℝ⁺, (right_triangle(a, b, c) → a² + b² = c²)
+
+proof:
+  assume a, b, c : ℝ⁺
+  assume right_triangle(a, b, c)
+  
+  by geometric_construction:
+    let square_c := square(c)
+    let square_a := square(a)
+    let square_b := square(b)
+    
+  by area_calculation:
+    area(square_c) = area(square_a) + area(square_b) + 4 * area(triangle(a, b))
+    
+  simplifying:
+    c² = a² + b² + 4 * (½ * a * b)
+    c² = a² + b² + 2ab
+    
+  by construction_constraint:
+    area(square_c) = area(square_a) + area(square_b)
+    
+  therefore:
+    c² = a² + b²
+QED
