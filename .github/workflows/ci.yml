@@ -1,0 +1,72 @@
+name: CI
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        build_type: [Release, Debug]
+        include:
+          - os: ubuntu-latest
+            compiler: gcc
+          - os: windows-latest
+            compiler: msvc
+          - os: macos-latest
+            compiler: clang
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup C++
+      uses: aminya/setup-cpp@v1
+      with:
+        compiler: ${{ matrix.compiler }}
+        vcvarsall: ${{ contains(matrix.os, 'windows') }}
+        cmake: true
+        ninja: true
+
+    - name: Configure CMake
+      run: |
+        cmake -B build -DCMAKE_BUILD_TYPE=${{ matrix.build_type }} -DBUILD_TESTS=ON -G Ninja
+
+    - name: Build
+      run: |
+        cmake --build build --config ${{ matrix.build_type }}
+
+    - name: Test
+      working-directory: build
+      run: |
+        ctest --build-config ${{ matrix.build_type }} --verbose
+
+    - name: Upload coverage reports (Ubuntu Debug only)
+      if: matrix.os == 'ubuntu-latest' && matrix.build_type == 'Debug'
+      uses: codecov/codecov-action@v3
+      with:
+        files: ./build/coverage.info
+        fail_ci_if_error: true
+
+  static-analysis:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup tools
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y clang-tidy cppcheck
+
+    - name: Run clang-tidy
+      run: |
+        cmake -B build -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+        clang-tidy src/**/*.cpp -p build
+
+    - name: Run cppcheck
+      run: |
+        cppcheck --enable=all --std=c++20 --project=build/compile_commands.json
