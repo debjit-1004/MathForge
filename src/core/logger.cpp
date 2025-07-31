@@ -6,6 +6,7 @@
 #include "mathforge/core/logger.hpp"
 #include <iomanip>
 #include <filesystem>
+#include <cstring>
 
 namespace mathforge::core {
 

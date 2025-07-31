@@ -48,7 +48,7 @@ enum class TokenType {
     SUPERSET,       // ⊇
     UNION,          // ∪
     INTERSECTION,   // ∩
-    SET_MINUS,      // \
+    SET_MINUS,      // \ (set difference)
     
     // Quantifiers
     FORALL,         // ∀

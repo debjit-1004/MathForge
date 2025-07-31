@@ -1,0 +1,9 @@
+theorem simple:
+  forall a, b, c in Real:
+    right_triangle(a, b, c) implies a^2 + b^2 = c^2
+
+proof:
+  assume a, b, c in Real
+  assume right_triangle(a, b, c)
+  therefore a^2 + b^2 = c^2
+qed

@@ -5,6 +5,7 @@
 
 #include "mathforge/core/version.hpp"
 #include <sstream>
+#include <cstring>
 
 namespace mathforge::core {
 

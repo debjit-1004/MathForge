@@ -13,7 +13,7 @@ TEST(ExceptionsTest, BaseException) {
         throw MathForgeException("Test message");
     } catch (const MathForgeException& e) {
         EXPECT_STREQ(e.what(), "Test message");
-        EXPECT_FALSE(e.getDetailedMessage().empty());
+        EXPECT_FALSE(e.getMessage().empty());
     }
 }
 

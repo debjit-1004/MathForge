@@ -100,13 +100,9 @@ std::vector<Token> Lexer::tokenize() {
                 column_ = 1;
                 break;
             default:
-                // Try Unicode mathematical symbols
-                if (static_cast<unsigned char>(c) > 127) {
-                    tokens.push_back(scanUnicodeSymbol());
-                } else {
-                    tokens.push_back(makeErrorToken("Unexpected character"));
-                    advance();
-                }
+                // For now, skip unknown characters to avoid infinite loops
+                tokens.push_back(makeErrorToken("Unexpected character"));
+                advance(); // Make sure we always advance to avoid infinite loop
                 break;
         }
     }

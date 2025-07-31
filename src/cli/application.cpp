@@ -26,10 +26,14 @@ Application::Application() = default;
 
 int Application::run(int argc, char* argv[]) {
     try {
+        std::cerr << "DEBUG: Starting application run" << std::endl;
+        
         // Parse command line arguments
         if (!parseArguments(argc, argv)) {
             return 1;
         }
+        
+        std::cerr << "DEBUG: Arguments parsed successfully" << std::endl;
         
         // Handle special options
         if (options_.showHelp) {
@@ -42,22 +46,30 @@ int Application::run(int argc, char* argv[]) {
             return 0;
         }
         
+        std::cerr << "DEBUG: Special options handled" << std::endl;
+        
         // Validate options
         if (!validateOptions()) {
             return 1;
         }
         
-        // Setup logging
-        setupLogging();
+        std::cerr << "DEBUG: Options validated" << std::endl;
         
-        LOG_INFO("Starting MathForge compiler");
-        LOG_INFO("Input file: " + options_.inputFile);
+        // Setup logging
+        // setupLogging(); // Comment out to debug hanging issue
+        std::cerr << "DEBUG: Skipped setupLogging()" << std::endl;
+        
+        // LOG_INFO("Starting MathForge compiler");
+        // LOG_INFO("Input file: " + options_.inputFile);
+        std::cerr << "DEBUG: Starting MathForge compiler" << std::endl;
+        std::cerr << "DEBUG: Input file: " << options_.inputFile << std::endl;
         
         // Process the input file
+        std::cerr << "DEBUG: About to call processFile()" << std::endl;
         return processFile();
         
     } catch (const core::MathForgeException& e) {
-        std::cerr << "Error: " << e.getDetailedMessage() << std::endl;
+        std::cerr << "Error: " << e.getMessage() << std::endl;
         return 1;
     } catch (const std::exception& e) {
         std::cerr << "Unexpected error: " << e.what() << std::endl;
@@ -103,7 +115,7 @@ bool Application::parseArguments(int argc, char* argv[]) {
                 std::cerr << "Error: " << arg << " requires an argument" << std::endl;
                 return false;
             }
-        } else if (arg.starts_with("-")) {
+        } else if (!arg.empty() && arg[0] == '-') {
             std::cerr << "Error: Unknown option " << arg << std::endl;
             return false;
         } else {
@@ -192,7 +204,11 @@ void Application::setupLogging() {
 
 int Application::processFile() {
     try {
-        LOG_INFO("Reading input file: " + options_.inputFile);
+        std::cerr << "DEBUG: Starting processFile()" << std::endl;
+        
+        // Skip logging for now - might be causing the hang
+        // LOG_INFO("Reading input file: " + options_.inputFile);
+        std::cerr << "DEBUG: Reading input file: " << options_.inputFile << std::endl;
         
         // Read input file
         std::ifstream file(options_.inputFile);
@@ -200,51 +216,74 @@ int Application::processFile() {
             throw core::IOException("Cannot open input file: " + options_.inputFile);
         }
         
+        std::cerr << "DEBUG: File opened successfully" << std::endl;
+        
         std::string content((std::istreambuf_iterator<char>(file)),
                            std::istreambuf_iterator<char>());
         file.close();
         
-        LOG_INFO("Starting lexical analysis");
+        std::cerr << "DEBUG: File read, content length: " << content.length() << std::endl;
+        std::cerr << "DEBUG: File read, content length: " << content.length() << std::endl;
+        
+        // Skip logging for now
+        // LOG_INFO("Starting lexical analysis");
+        std::cerr << "DEBUG: Starting lexical analysis" << std::endl;
         
         // Lexical analysis
         auto lexer = std::make_unique<lexer::Lexer>(content);
-        auto tokens = lexer->tokenize();
+        std::cerr << "DEBUG: Lexer created" << std::endl;
         
-        LOG_INFO("Found " + std::to_string(tokens.size()) + " tokens");
+        auto tokens = lexer->tokenize();
+        std::cerr << "DEBUG: Tokenization complete, token count: " << tokens.size() << std::endl;
+        
+        // LOG_INFO("Found " + std::to_string(tokens.size()) + " tokens");
+        std::cerr << "DEBUG: Found " << tokens.size() << " tokens" << std::endl;
         
         if (options_.verbose) {
-            LOG_DEBUG("Starting syntax analysis");
+            // LOG_DEBUG("Starting syntax analysis");
+            std::cerr << "DEBUG: Starting syntax analysis" << std::endl;
         }
         
         // Syntax analysis
+        std::cerr << "DEBUG: About to create parser" << std::endl;
         auto parser = std::make_unique<parser::Parser>(std::move(tokens));
-        auto ast = parser->parse();
+        std::cerr << "DEBUG: Parser created" << std::endl;
         
-        LOG_INFO("AST generated successfully");
+        std::cerr << "DEBUG: About to call parser->parse()" << std::endl;
+        auto ast = parser->parse();
+        std::cerr << "DEBUG: AST parsing completed" << std::endl;
+        
+        // LOG_INFO("AST generated successfully");
+        std::cerr << "DEBUG: AST generated successfully" << std::endl;
         
         if (options_.verbose) {
-            LOG_DEBUG("Starting semantic analysis");
+            // LOG_DEBUG("Starting semantic analysis");
+            std::cerr << "DEBUG: Starting semantic analysis" << std::endl;
         }
         
         // Semantic analysis
         auto analyzer = std::make_unique<semantic::Analyzer>();
         analyzer->analyze(ast.get());
         
-        LOG_INFO("Semantic analysis completed");
+        // LOG_INFO("Semantic analysis completed");
+        std::cerr << "DEBUG: Semantic analysis completed" << std::endl;
         
         // Proof verification (if enabled)
         if (options_.verify) {
             if (options_.verbose) {
-                LOG_DEBUG("Starting proof verification");
+                // LOG_DEBUG("Starting proof verification");
+                std::cerr << "DEBUG: Starting proof verification" << std::endl;
             }
             
             auto verifier = std::make_unique<proof::Verifier>();
             bool verified = verifier->verify(ast.get());
             
             if (verified) {
-                LOG_INFO("Proof verification successful");
+                // LOG_INFO("Proof verification successful");
+                std::cerr << "DEBUG: Proof verification successful" << std::endl;
             } else {
-                LOG_ERROR("Proof verification failed");
+                // LOG_ERROR("Proof verification failed");
+                std::cerr << "ERROR: Proof verification failed" << std::endl;
                 return 3;
             }
         }
@@ -252,7 +291,8 @@ int Application::processFile() {
         // Code generation
         if (options_.generateLatex) {
             if (options_.verbose) {
-                LOG_DEBUG("Generating LaTeX output");
+                // LOG_DEBUG("Generating LaTeX output");
+                std::cerr << "DEBUG: Generating LaTeX output" << std::endl;
             }
             
             auto generator = std::make_unique<codegen::LatexGenerator>();
@@ -267,32 +307,41 @@ int Application::processFile() {
             outFile << output;
             outFile.close();
             
-            LOG_INFO("LaTeX output written to: " + options_.outputFile);
+            // LOG_INFO("LaTeX output written to: " + options_.outputFile);
+            std::cerr << "DEBUG: LaTeX output written to: " << options_.outputFile << std::endl;
         }
         
-        LOG_INFO("Compilation completed successfully");
+        // LOG_INFO("Compilation completed successfully");
+        std::cerr << "DEBUG: Compilation completed successfully" << std::endl;
         return 0;
         
     } catch (const core::LexicalException& e) {
-        LOG_ERROR("Lexical error at line " + std::to_string(e.getLine()) + 
-                 ", column " + std::to_string(e.getColumn()) + ": " + e.what());
+        // LOG_ERROR("Lexical error at line " + std::to_string(e.getLine()) + 
+        //          ", column " + std::to_string(e.getColumn()) + ": " + e.what());
+        std::cerr << "ERROR: Lexical error at line " << e.getLine() << 
+                     ", column " << e.getColumn() << ": " << e.what() << std::endl;
         return 10;
         
     } catch (const core::SyntaxException& e) {
-        LOG_ERROR("Syntax error at line " + std::to_string(e.getLine()) + 
-                 ", column " + std::to_string(e.getColumn()) + ": " + e.what());
+        // LOG_ERROR("Syntax error at line " + std::to_string(e.getLine()) + 
+        //          ", column " + std::to_string(e.getColumn()) + ": " + e.what());
+        std::cerr << "ERROR: Syntax error at line " << e.getLine() << 
+                     ", column " << e.getColumn() << ": " << e.what() << std::endl;
         return 11;
         
     } catch (const core::SemanticException& e) {
-        LOG_ERROR("Semantic error: " + std::string(e.what()));
+        // LOG_ERROR("Semantic error: " + std::string(e.what()));
+        std::cerr << "ERROR: Semantic error: " << e.what() << std::endl;
         return 12;
         
     } catch (const core::ProofException& e) {
-        LOG_ERROR("Proof error: " + std::string(e.what()));
+        // LOG_ERROR("Proof error: " + std::string(e.what()));
+        std::cerr << "ERROR: Proof error: " << e.what() << std::endl;
         return 13;
         
     } catch (const core::CodeGenException& e) {
-        LOG_ERROR("Code generation error: " + std::string(e.what()));
+        // LOG_ERROR("Code generation error: " + std::string(e.what()));
+        std::cerr << "ERROR: Code generation error: " << e.what() << std::endl;
         return 14;
     }
 }
