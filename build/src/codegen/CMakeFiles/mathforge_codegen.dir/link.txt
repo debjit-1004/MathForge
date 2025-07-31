@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmathforge_codegen.a CMakeFiles/mathforge_codegen.dir/latex_generator.cpp.o CMakeFiles/mathforge_codegen.dir/generator_base.cpp.o
+/usr/bin/ranlib libmathforge_codegen.a

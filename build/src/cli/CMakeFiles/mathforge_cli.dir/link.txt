@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmathforge_cli.a CMakeFiles/mathforge_cli.dir/application.cpp.o
+/usr/bin/ranlib libmathforge_cli.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmathforge_proof.a CMakeFiles/mathforge_proof.dir/verifier.cpp.o CMakeFiles/mathforge_proof.dir/proof_engine.cpp.o CMakeFiles/mathforge_proof.dir/logic_rules.cpp.o
+/usr/bin/ranlib libmathforge_proof.a

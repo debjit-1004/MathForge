@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmathforge_ast.a CMakeFiles/mathforge_ast.dir/node.cpp.o CMakeFiles/mathforge_ast.dir/expression.cpp.o CMakeFiles/mathforge_ast.dir/statement.cpp.o CMakeFiles/mathforge_ast.dir/visitor.cpp.o
+/usr/bin/ranlib libmathforge_ast.a
