@@ -1,0 +1,4 @@
+CoreTests 0 0
+LexerTests 1 0.0190585
+---
+CoreTests

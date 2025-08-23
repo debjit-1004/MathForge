@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_lexer.dir/link.d"
   "CMakeFiles/test_lexer.dir/lexer/test_lexer.cpp.o"
   "CMakeFiles/test_lexer.dir/lexer/test_lexer.cpp.o.d"
   "CMakeFiles/test_lexer.dir/lexer/test_token.cpp.o"

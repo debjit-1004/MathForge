@@ -8,16 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shadow/projects/MathForge/src/lexer/lexer.cpp" "src/lexer/CMakeFiles/mathforge_lexer.dir/lexer.cpp.o" "gcc" "src/lexer/CMakeFiles/mathforge_lexer.dir/lexer.cpp.o.d"
-  "/home/shadow/projects/MathForge/src/lexer/token.cpp" "src/lexer/CMakeFiles/mathforge_lexer.dir/token.cpp.o" "gcc" "src/lexer/CMakeFiles/mathforge_lexer.dir/token.cpp.o.d"
+  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/src/lexer/lexer.cpp" "src/lexer/CMakeFiles/mathforge_lexer.dir/lexer.cpp.o" "gcc" "src/lexer/CMakeFiles/mathforge_lexer.dir/lexer.cpp.o.d"
+  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/src/lexer/token.cpp" "src/lexer/CMakeFiles/mathforge_lexer.dir/token.cpp.o" "gcc" "src/lexer/CMakeFiles/mathforge_lexer.dir/token.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build/src/core/CMakeFiles/mathforge_core.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

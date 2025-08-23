@@ -1,0 +1,1 @@
+/usr/bin/g++-11 -rdynamic CMakeFiles/test_lexer.dir/test_main.o CMakeFiles/test_lexer.dir/test_token.o CMakeFiles/test_lexer.dir/test_lexer.o -o test_lexer  -lmathforge_lexer -lmathforge_core -lgtest -lgtest_main 

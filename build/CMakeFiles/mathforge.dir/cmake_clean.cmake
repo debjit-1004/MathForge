@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mathforge.dir/link.d"
   "CMakeFiles/mathforge.dir/src/main.cpp.o"
   "CMakeFiles/mathforge.dir/src/main.cpp.o.d"
   "bin/mathforge"
