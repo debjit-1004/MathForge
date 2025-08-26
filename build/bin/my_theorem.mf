@@ -1,0 +1,4 @@
+theorem T:
+    trivial
+end
+

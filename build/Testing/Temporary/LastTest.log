@@ -1,0 +1,24 @@
+Start testing: Aug 23 14:59 IST
+----------------------------------------------------------
+1/2 Testing: CoreTests
+1/2 Test: CoreTests
+Command: "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build/tests/test_core"
+Directory: /mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build/tests
+"CoreTests" start time: Aug 23 14:59 IST
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from LoggerTest
+[ RUN      ] LoggerTest.LogLevels
+[       OK ] LoggerTest.LogLevels (0 ms)
+[ RUN      ] LoggerTest.BasicLogging
+<end of output>
+Test time =  30.03 sec
+----------------------------------------------------------
+Test Failed.
+"CoreTests" end time: Aug 23 14:59 IST
+"CoreTests" time elapsed: 00:00:30
+----------------------------------------------------------
+
+End testing: Aug 23 14:59 IST
