@@ -136,3 +136,5 @@ message(STATUS "  Build Docs: ${BUILD_DOCS}")
 message(STATUS "  Build Examples: ${BUILD_EXAMPLES}")
 
 target_sources(mathforge_core PRIVATE src/core/unicode_normalize.cpp)
+
+target_sources(mathforge_core PRIVATE src/core/unicode_normalize.cpp)
