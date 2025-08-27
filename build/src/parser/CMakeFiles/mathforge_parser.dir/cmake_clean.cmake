@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mathforge_parser.dir/parser.cpp.o"
-  "CMakeFiles/mathforge_parser.dir/parser.cpp.o.d"
+  "CMakeFiles/mathforge_parser.dir/parser.cpp.obj"
+  "CMakeFiles/mathforge_parser.dir/parser.cpp.obj.d"
   "libmathforge_parser.a"
   "libmathforge_parser.pdb"
 )

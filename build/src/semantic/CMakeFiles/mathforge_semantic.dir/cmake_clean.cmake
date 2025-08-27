@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mathforge_semantic.dir/analyzer.cpp.o"
-  "CMakeFiles/mathforge_semantic.dir/analyzer.cpp.o.d"
-  "CMakeFiles/mathforge_semantic.dir/symbol_table.cpp.o"
-  "CMakeFiles/mathforge_semantic.dir/symbol_table.cpp.o.d"
-  "CMakeFiles/mathforge_semantic.dir/type_checker.cpp.o"
-  "CMakeFiles/mathforge_semantic.dir/type_checker.cpp.o.d"
+  "CMakeFiles/mathforge_semantic.dir/analyzer.cpp.obj"
+  "CMakeFiles/mathforge_semantic.dir/analyzer.cpp.obj.d"
+  "CMakeFiles/mathforge_semantic.dir/symbol_table.cpp.obj"
+  "CMakeFiles/mathforge_semantic.dir/symbol_table.cpp.obj.d"
+  "CMakeFiles/mathforge_semantic.dir/type_checker.cpp.obj"
+  "CMakeFiles/mathforge_semantic.dir/type_checker.cpp.obj.d"
   "libmathforge_semantic.a"
   "libmathforge_semantic.pdb"
 )

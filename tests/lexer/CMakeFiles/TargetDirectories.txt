@@ -1,4 +1,0 @@
-/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/tests/lexer/CMakeFiles/test_core.dir
-/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/tests/lexer/CMakeFiles/test_lexer.dir
-/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/tests/lexer/CMakeFiles/edit_cache.dir
-/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/tests/lexer/CMakeFiles/rebuild_cache.dir

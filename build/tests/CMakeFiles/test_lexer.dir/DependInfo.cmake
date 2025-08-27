@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/tests/lexer/test_lexer.cpp" "tests/CMakeFiles/test_lexer.dir/lexer/test_lexer.cpp.o" "gcc" "tests/CMakeFiles/test_lexer.dir/lexer/test_lexer.cpp.o.d"
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/tests/lexer/test_token.cpp" "tests/CMakeFiles/test_lexer.dir/lexer/test_token.cpp.o" "gcc" "tests/CMakeFiles/test_lexer.dir/lexer/test_token.cpp.o.d"
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/tests/test_main.cpp" "tests/CMakeFiles/test_lexer.dir/test_main.cpp.o" "gcc" "tests/CMakeFiles/test_lexer.dir/test_main.cpp.o.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/tests/lexer/test_lexer.cpp" "tests/CMakeFiles/test_lexer.dir/lexer/test_lexer.cpp.obj" "gcc" "tests/CMakeFiles/test_lexer.dir/lexer/test_lexer.cpp.obj.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/tests/lexer/test_token.cpp" "tests/CMakeFiles/test_lexer.dir/lexer/test_token.cpp.obj" "gcc" "tests/CMakeFiles/test_lexer.dir/lexer/test_token.cpp.obj.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/tests/test_main.cpp" "tests/CMakeFiles/test_lexer.dir/test_main.cpp.obj" "gcc" "tests/CMakeFiles/test_lexer.dir/test_main.cpp.obj.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build/src/lexer/CMakeFiles/mathforge_lexer.dir/DependInfo.cmake"
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build/src/core/CMakeFiles/mathforge_core.dir/DependInfo.cmake"
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

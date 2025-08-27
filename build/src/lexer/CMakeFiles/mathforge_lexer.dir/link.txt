@@ -1,2 +1,2 @@
-/usr/bin/ar qc libmathforge_lexer.a CMakeFiles/mathforge_lexer.dir/token.cpp.o CMakeFiles/mathforge_lexer.dir/lexer.cpp.o
-/usr/bin/ranlib libmathforge_lexer.a
+C:\MinGW\mingw64\bin\ar.exe qc libmathforge_lexer.a CMakeFiles/mathforge_lexer.dir/token.cpp.obj CMakeFiles/mathforge_lexer.dir/lexer.cpp.obj
+C:\MinGW\mingw64\bin\ranlib.exe libmathforge_lexer.a

@@ -1,1 +1,0 @@
-/usr/bin/g++-11 -rdynamic CMakeFiles/test_core.dir/test_main.o CMakeFiles/test_core.dir/core/test_logger.o CMakeFiles/test_core.dir/core/test_exceptions.o CMakeFiles/test_core.dir/core/test_version.o -o test_core  -lmathforge_core -lgtest -lgtest_main 

@@ -8,18 +8,15 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/src/cli/application.cpp" "src/cli/CMakeFiles/mathforge_cli.dir/application.cpp.o" "gcc" "src/cli/CMakeFiles/mathforge_cli.dir/application.cpp.o.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/src/cli/application.cpp" "src/cli/CMakeFiles/mathforge_cli.dir/application.cpp.obj" "gcc" "src/cli/CMakeFiles/mathforge_cli.dir/application.cpp.obj.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build/src/core/CMakeFiles/mathforge_core.dir/DependInfo.cmake"
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build/src/lexer/CMakeFiles/mathforge_lexer.dir/DependInfo.cmake"
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build/src/parser/CMakeFiles/mathforge_parser.dir/DependInfo.cmake"
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build/src/semantic/CMakeFiles/mathforge_semantic.dir/DependInfo.cmake"
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build/src/proof/CMakeFiles/mathforge_proof.dir/DependInfo.cmake"
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build/src/codegen/CMakeFiles/mathforge_codegen.dir/DependInfo.cmake"
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build/src/ast/CMakeFiles/mathforge_ast.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

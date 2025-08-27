@@ -1,11 +1,13 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test_lexer.dir/lexer/test_lexer.cpp.o"
-  "CMakeFiles/test_lexer.dir/lexer/test_lexer.cpp.o.d"
-  "CMakeFiles/test_lexer.dir/lexer/test_token.cpp.o"
-  "CMakeFiles/test_lexer.dir/lexer/test_token.cpp.o.d"
-  "CMakeFiles/test_lexer.dir/test_main.cpp.o"
-  "CMakeFiles/test_lexer.dir/test_main.cpp.o.d"
-  "test_lexer"
+  "CMakeFiles/test_lexer.dir/lexer/test_lexer.cpp.obj"
+  "CMakeFiles/test_lexer.dir/lexer/test_lexer.cpp.obj.d"
+  "CMakeFiles/test_lexer.dir/lexer/test_token.cpp.obj"
+  "CMakeFiles/test_lexer.dir/lexer/test_token.cpp.obj.d"
+  "CMakeFiles/test_lexer.dir/test_main.cpp.obj"
+  "CMakeFiles/test_lexer.dir/test_main.cpp.obj.d"
+  "libtest_lexer.dll.a"
+  "test_lexer.exe"
+  "test_lexer.exe.manifest"
   "test_lexer.pdb"
 )
 

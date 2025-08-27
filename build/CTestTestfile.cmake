@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /mnt/c/Users/Goku/Desktop/GITHUB/MathForge
-# Build directory: /mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build
+# Source directory: C:/Users/Durgeshwar/Desktop/Learning/MathForge
+# Build directory: C:/Users/Durgeshwar/Desktop/Learning/MathForge/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

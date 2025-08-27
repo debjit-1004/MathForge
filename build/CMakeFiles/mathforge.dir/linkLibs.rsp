@@ -1,0 +1,1 @@
+ src/cli/libmathforge_cli.a src/codegen/libmathforge_codegen.a src/proof/libmathforge_proof.a src/semantic/libmathforge_semantic.a src/parser/libmathforge_parser.a src/lexer/libmathforge_lexer.a src/ast/libmathforge_ast.a src/core/libmathforge_core.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

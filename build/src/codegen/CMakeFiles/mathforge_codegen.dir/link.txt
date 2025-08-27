@@ -1,2 +1,2 @@
-/usr/bin/ar qc libmathforge_codegen.a CMakeFiles/mathforge_codegen.dir/latex_generator.cpp.o CMakeFiles/mathforge_codegen.dir/generator_base.cpp.o
-/usr/bin/ranlib libmathforge_codegen.a
+C:\MinGW\mingw64\bin\ar.exe qc libmathforge_codegen.a CMakeFiles/mathforge_codegen.dir/latex_generator.cpp.obj CMakeFiles/mathforge_codegen.dir/generator_base.cpp.obj
+C:\MinGW\mingw64\bin\ranlib.exe libmathforge_codegen.a

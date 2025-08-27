@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mathforge.dir/src/main.cpp.o"
-  "CMakeFiles/mathforge.dir/src/main.cpp.o.d"
-  "bin/mathforge"
+  "CMakeFiles/mathforge.dir/src/main.cpp.obj"
+  "CMakeFiles/mathforge.dir/src/main.cpp.obj.d"
+  "bin/mathforge.exe"
+  "bin/mathforge.exe.manifest"
   "bin/mathforge.pdb"
+  "libmathforge.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

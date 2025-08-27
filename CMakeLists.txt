@@ -134,3 +134,5 @@ message(STATUS "  Compiler: ${CMAKE_CXX_COMPILER_ID} ${CMAKE_CXX_COMPILER_VERSIO
 message(STATUS "  Build Tests: ${BUILD_TESTS}")
 message(STATUS "  Build Docs: ${BUILD_DOCS}")
 message(STATUS "  Build Examples: ${BUILD_EXAMPLES}")
+
+target_sources(mathforge_core PRIVATE src/core/unicode_normalize.cpp)

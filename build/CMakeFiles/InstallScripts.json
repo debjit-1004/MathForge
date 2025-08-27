@@ -1,0 +1,20 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Durgeshwar/Desktop/Learning/MathForge/build/cmake_install.cmake",
+		"C:/Users/Durgeshwar/Desktop/Learning/MathForge/build/src/core/cmake_install.cmake",
+		"C:/Users/Durgeshwar/Desktop/Learning/MathForge/build/src/lexer/cmake_install.cmake",
+		"C:/Users/Durgeshwar/Desktop/Learning/MathForge/build/src/parser/cmake_install.cmake",
+		"C:/Users/Durgeshwar/Desktop/Learning/MathForge/build/src/ast/cmake_install.cmake",
+		"C:/Users/Durgeshwar/Desktop/Learning/MathForge/build/src/semantic/cmake_install.cmake",
+		"C:/Users/Durgeshwar/Desktop/Learning/MathForge/build/src/proof/cmake_install.cmake",
+		"C:/Users/Durgeshwar/Desktop/Learning/MathForge/build/src/codegen/cmake_install.cmake",
+		"C:/Users/Durgeshwar/Desktop/Learning/MathForge/build/src/cli/cmake_install.cmake",
+		"C:/Users/Durgeshwar/Desktop/Learning/MathForge/build/_deps/googletest-build/cmake_install.cmake",
+		"C:/Users/Durgeshwar/Desktop/Learning/MathForge/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"C:/Users/Durgeshwar/Desktop/Learning/MathForge/build/_deps/googletest-build/googletest/cmake_install.cmake",
+		"C:/Users/Durgeshwar/Desktop/Learning/MathForge/build/tests/cmake_install.cmake",
+		"C:/Users/Durgeshwar/Desktop/Learning/MathForge/build/examples/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

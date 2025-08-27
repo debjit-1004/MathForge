@@ -1,1 +1,3 @@
-/usr/bin/g++-11 -O3 -DNDEBUG CMakeFiles/mathforge.dir/src/main.cpp.o -o bin/mathforge  src/cli/libmathforge_cli.a src/codegen/libmathforge_codegen.a src/proof/libmathforge_proof.a src/semantic/libmathforge_semantic.a src/parser/libmathforge_parser.a src/lexer/libmathforge_lexer.a src/ast/libmathforge_ast.a src/core/libmathforge_core.a -lpthread 
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\mathforge.dir/objects.a
+C:\MinGW\mingw64\bin\ar.exe qc CMakeFiles\mathforge.dir/objects.a @CMakeFiles\mathforge.dir\objects1.rsp
+C:\MinGW\mingw64\bin\c++.exe -g --coverage -Wl,--whole-archive CMakeFiles\mathforge.dir/objects.a -Wl,--no-whole-archive -o bin\mathforge.exe -Wl,--out-implib,libmathforge.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\mathforge.dir\linkLibs.rsp

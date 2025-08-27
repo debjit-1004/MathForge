@@ -8,15 +8,18 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/src/ast/expression.cpp" "src/ast/CMakeFiles/mathforge_ast.dir/expression.cpp.o" "gcc" "src/ast/CMakeFiles/mathforge_ast.dir/expression.cpp.o.d"
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/src/ast/node.cpp" "src/ast/CMakeFiles/mathforge_ast.dir/node.cpp.o" "gcc" "src/ast/CMakeFiles/mathforge_ast.dir/node.cpp.o.d"
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/src/ast/statement.cpp" "src/ast/CMakeFiles/mathforge_ast.dir/statement.cpp.o" "gcc" "src/ast/CMakeFiles/mathforge_ast.dir/statement.cpp.o.d"
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/src/ast/visitor.cpp" "src/ast/CMakeFiles/mathforge_ast.dir/visitor.cpp.o" "gcc" "src/ast/CMakeFiles/mathforge_ast.dir/visitor.cpp.o.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/src/ast/expression.cpp" "src/ast/CMakeFiles/mathforge_ast.dir/expression.cpp.obj" "gcc" "src/ast/CMakeFiles/mathforge_ast.dir/expression.cpp.obj.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/src/ast/node.cpp" "src/ast/CMakeFiles/mathforge_ast.dir/node.cpp.obj" "gcc" "src/ast/CMakeFiles/mathforge_ast.dir/node.cpp.obj.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/src/ast/statement.cpp" "src/ast/CMakeFiles/mathforge_ast.dir/statement.cpp.obj" "gcc" "src/ast/CMakeFiles/mathforge_ast.dir/statement.cpp.obj.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/src/ast/visitor.cpp" "src/ast/CMakeFiles/mathforge_ast.dir/visitor.cpp.obj" "gcc" "src/ast/CMakeFiles/mathforge_ast.dir/visitor.cpp.obj.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/c/Users/Goku/Desktop/GITHUB/MathForge/build/src/core/CMakeFiles/mathforge_core.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

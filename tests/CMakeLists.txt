@@ -16,7 +16,6 @@ target_link_libraries(test_core
 
 target_include_directories(test_core
     PRIVATE ${MATHFORGE_INCLUDE_DIR}
-    PRIVATE $<TARGET_PROPERTY:gtest,INTERFACE_INCLUDE_DIRECTORIES>
 )
 
 # Test executable for lexer module
@@ -35,7 +34,6 @@ target_link_libraries(test_lexer
 
 target_include_directories(test_lexer
     PRIVATE ${MATHFORGE_INCLUDE_DIR}
-    PRIVATE $<TARGET_PROPERTY:gtest,INTERFACE_INCLUDE_DIRECTORIES>
 )
 
 # Add tests to CTest

@@ -1,2 +1,2 @@
-/usr/bin/ar qc libmathforge_semantic.a CMakeFiles/mathforge_semantic.dir/analyzer.cpp.o CMakeFiles/mathforge_semantic.dir/symbol_table.cpp.o CMakeFiles/mathforge_semantic.dir/type_checker.cpp.o
-/usr/bin/ranlib libmathforge_semantic.a
+C:\MinGW\mingw64\bin\ar.exe qc libmathforge_semantic.a CMakeFiles/mathforge_semantic.dir/analyzer.cpp.obj CMakeFiles/mathforge_semantic.dir/symbol_table.cpp.obj CMakeFiles/mathforge_semantic.dir/type_checker.cpp.obj
+C:\MinGW\mingw64\bin\ranlib.exe libmathforge_semantic.a

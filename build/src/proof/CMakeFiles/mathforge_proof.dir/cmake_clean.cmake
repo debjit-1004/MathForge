@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mathforge_proof.dir/logic_rules.cpp.o"
-  "CMakeFiles/mathforge_proof.dir/logic_rules.cpp.o.d"
-  "CMakeFiles/mathforge_proof.dir/proof_engine.cpp.o"
-  "CMakeFiles/mathforge_proof.dir/proof_engine.cpp.o.d"
-  "CMakeFiles/mathforge_proof.dir/verifier.cpp.o"
-  "CMakeFiles/mathforge_proof.dir/verifier.cpp.o.d"
+  "CMakeFiles/mathforge_proof.dir/logic_rules.cpp.obj"
+  "CMakeFiles/mathforge_proof.dir/logic_rules.cpp.obj.d"
+  "CMakeFiles/mathforge_proof.dir/proof_engine.cpp.obj"
+  "CMakeFiles/mathforge_proof.dir/proof_engine.cpp.obj.d"
+  "CMakeFiles/mathforge_proof.dir/verifier.cpp.obj"
+  "CMakeFiles/mathforge_proof.dir/verifier.cpp.obj.d"
   "libmathforge_proof.a"
   "libmathforge_proof.pdb"
 )
