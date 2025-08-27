@@ -1,2 +1,2 @@
-/usr/bin/ar qc libmathforge_cli.a CMakeFiles/mathforge_cli.dir/application.cpp.o
-/usr/bin/ranlib libmathforge_cli.a
+C:\MinGW\mingw64\bin\ar.exe qc libmathforge_cli.a CMakeFiles/mathforge_cli.dir/application.cpp.obj
+C:\MinGW\mingw64\bin\ranlib.exe libmathforge_cli.a

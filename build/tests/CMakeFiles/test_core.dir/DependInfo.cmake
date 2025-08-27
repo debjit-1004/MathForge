@@ -8,11 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shadow/projects/MathForge/tests/core/test_exceptions.cpp" "tests/CMakeFiles/test_core.dir/core/test_exceptions.cpp.o" "gcc" "tests/CMakeFiles/test_core.dir/core/test_exceptions.cpp.o.d"
-  "/home/shadow/projects/MathForge/tests/core/test_logger.cpp" "tests/CMakeFiles/test_core.dir/core/test_logger.cpp.o" "gcc" "tests/CMakeFiles/test_core.dir/core/test_logger.cpp.o.d"
-  "/home/shadow/projects/MathForge/tests/core/test_version.cpp" "tests/CMakeFiles/test_core.dir/core/test_version.cpp.o" "gcc" "tests/CMakeFiles/test_core.dir/core/test_version.cpp.o.d"
-  "/home/shadow/projects/MathForge/tests/test_main.cpp" "tests/CMakeFiles/test_core.dir/test_main.cpp.o" "gcc" "tests/CMakeFiles/test_core.dir/test_main.cpp.o.d"
-  "" "tests/test_core" "gcc" "tests/CMakeFiles/test_core.dir/link.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/tests/core/test_exceptions.cpp" "tests/CMakeFiles/test_core.dir/core/test_exceptions.cpp.obj" "gcc" "tests/CMakeFiles/test_core.dir/core/test_exceptions.cpp.obj.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/tests/core/test_logger.cpp" "tests/CMakeFiles/test_core.dir/core/test_logger.cpp.obj" "gcc" "tests/CMakeFiles/test_core.dir/core/test_logger.cpp.obj.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/tests/core/test_version.cpp" "tests/CMakeFiles/test_core.dir/core/test_version.cpp.obj" "gcc" "tests/CMakeFiles/test_core.dir/core/test_version.cpp.obj.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/tests/test_main.cpp" "tests/CMakeFiles/test_core.dir/test_main.cpp.obj" "gcc" "tests/CMakeFiles/test_core.dir/test_main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

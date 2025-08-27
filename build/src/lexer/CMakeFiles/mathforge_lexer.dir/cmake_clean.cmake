@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mathforge_lexer.dir/lexer.cpp.o"
-  "CMakeFiles/mathforge_lexer.dir/lexer.cpp.o.d"
-  "CMakeFiles/mathforge_lexer.dir/token.cpp.o"
-  "CMakeFiles/mathforge_lexer.dir/token.cpp.o.d"
+  "CMakeFiles/mathforge_lexer.dir/lexer.cpp.obj"
+  "CMakeFiles/mathforge_lexer.dir/lexer.cpp.obj.d"
+  "CMakeFiles/mathforge_lexer.dir/token.cpp.obj"
+  "CMakeFiles/mathforge_lexer.dir/token.cpp.obj.d"
   "libmathforge_lexer.a"
   "libmathforge_lexer.pdb"
 )

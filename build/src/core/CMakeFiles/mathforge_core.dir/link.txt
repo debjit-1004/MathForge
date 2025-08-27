@@ -1,2 +1,2 @@
-/usr/bin/ar qc libmathforge_core.a CMakeFiles/mathforge_core.dir/version_impl.cpp.o CMakeFiles/mathforge_core.dir/logger.cpp.o CMakeFiles/mathforge_core.dir/exceptions.cpp.o
-/usr/bin/ranlib libmathforge_core.a
+C:\MinGW\mingw64\bin\ar.exe qc libmathforge_core.a CMakeFiles/mathforge_core.dir/version_impl.cpp.obj CMakeFiles/mathforge_core.dir/logger.cpp.obj CMakeFiles/mathforge_core.dir/exceptions.cpp.obj CMakeFiles/mathforge_core.dir/unicode_normalize.cpp.obj
+C:\MinGW\mingw64\bin\ranlib.exe libmathforge_core.a

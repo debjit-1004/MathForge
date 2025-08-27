@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shadow/projects/MathForge/src/cli/application.cpp" "src/cli/CMakeFiles/mathforge_cli.dir/application.cpp.o" "gcc" "src/cli/CMakeFiles/mathforge_cli.dir/application.cpp.o.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/src/cli/application.cpp" "src/cli/CMakeFiles/mathforge_cli.dir/application.cpp.obj" "gcc" "src/cli/CMakeFiles/mathforge_cli.dir/application.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shadow/projects/MathForge/src/proof/logic_rules.cpp" "src/proof/CMakeFiles/mathforge_proof.dir/logic_rules.cpp.o" "gcc" "src/proof/CMakeFiles/mathforge_proof.dir/logic_rules.cpp.o.d"
-  "/home/shadow/projects/MathForge/src/proof/proof_engine.cpp" "src/proof/CMakeFiles/mathforge_proof.dir/proof_engine.cpp.o" "gcc" "src/proof/CMakeFiles/mathforge_proof.dir/proof_engine.cpp.o.d"
-  "/home/shadow/projects/MathForge/src/proof/verifier.cpp" "src/proof/CMakeFiles/mathforge_proof.dir/verifier.cpp.o" "gcc" "src/proof/CMakeFiles/mathforge_proof.dir/verifier.cpp.o.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/src/proof/logic_rules.cpp" "src/proof/CMakeFiles/mathforge_proof.dir/logic_rules.cpp.obj" "gcc" "src/proof/CMakeFiles/mathforge_proof.dir/logic_rules.cpp.obj.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/src/proof/proof_engine.cpp" "src/proof/CMakeFiles/mathforge_proof.dir/proof_engine.cpp.obj" "gcc" "src/proof/CMakeFiles/mathforge_proof.dir/proof_engine.cpp.obj.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/src/proof/verifier.cpp" "src/proof/CMakeFiles/mathforge_proof.dir/verifier.cpp.obj" "gcc" "src/proof/CMakeFiles/mathforge_proof.dir/verifier.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

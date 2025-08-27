@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mathforge_codegen.dir/generator_base.cpp.o"
-  "CMakeFiles/mathforge_codegen.dir/generator_base.cpp.o.d"
-  "CMakeFiles/mathforge_codegen.dir/latex_generator.cpp.o"
-  "CMakeFiles/mathforge_codegen.dir/latex_generator.cpp.o.d"
+  "CMakeFiles/mathforge_codegen.dir/generator_base.cpp.obj"
+  "CMakeFiles/mathforge_codegen.dir/generator_base.cpp.obj.d"
+  "CMakeFiles/mathforge_codegen.dir/latex_generator.cpp.obj"
+  "CMakeFiles/mathforge_codegen.dir/latex_generator.cpp.obj.d"
   "libmathforge_codegen.a"
   "libmathforge_codegen.pdb"
 )

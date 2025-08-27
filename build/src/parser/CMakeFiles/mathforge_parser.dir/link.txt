@@ -1,2 +1,2 @@
-/usr/bin/ar qc libmathforge_parser.a CMakeFiles/mathforge_parser.dir/parser.cpp.o
-/usr/bin/ranlib libmathforge_parser.a
+C:\MinGW\mingw64\bin\ar.exe qc libmathforge_parser.a CMakeFiles/mathforge_parser.dir/parser.cpp.obj
+C:\MinGW\mingw64\bin\ranlib.exe libmathforge_parser.a

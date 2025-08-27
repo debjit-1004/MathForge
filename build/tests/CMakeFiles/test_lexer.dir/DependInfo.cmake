@@ -8,10 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/shadow/projects/MathForge/tests/lexer/test_lexer.cpp" "tests/CMakeFiles/test_lexer.dir/lexer/test_lexer.cpp.o" "gcc" "tests/CMakeFiles/test_lexer.dir/lexer/test_lexer.cpp.o.d"
-  "/home/shadow/projects/MathForge/tests/lexer/test_token.cpp" "tests/CMakeFiles/test_lexer.dir/lexer/test_token.cpp.o" "gcc" "tests/CMakeFiles/test_lexer.dir/lexer/test_token.cpp.o.d"
-  "/home/shadow/projects/MathForge/tests/test_main.cpp" "tests/CMakeFiles/test_lexer.dir/test_main.cpp.o" "gcc" "tests/CMakeFiles/test_lexer.dir/test_main.cpp.o.d"
-  "" "tests/test_lexer" "gcc" "tests/CMakeFiles/test_lexer.dir/link.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/tests/lexer/test_lexer.cpp" "tests/CMakeFiles/test_lexer.dir/lexer/test_lexer.cpp.obj" "gcc" "tests/CMakeFiles/test_lexer.dir/lexer/test_lexer.cpp.obj.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/tests/lexer/test_token.cpp" "tests/CMakeFiles/test_lexer.dir/lexer/test_token.cpp.obj" "gcc" "tests/CMakeFiles/test_lexer.dir/lexer/test_token.cpp.obj.d"
+  "C:/Users/Durgeshwar/Desktop/Learning/MathForge/tests/test_main.cpp" "tests/CMakeFiles/test_lexer.dir/test_main.cpp.obj" "gcc" "tests/CMakeFiles/test_lexer.dir/test_main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

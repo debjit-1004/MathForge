@@ -1,1 +1,3 @@
-/usr/bin/c++ -g --coverage -Wl,--dependency-file=CMakeFiles/test_lexer.dir/link.d CMakeFiles/test_lexer.dir/test_main.cpp.o CMakeFiles/test_lexer.dir/lexer/test_token.cpp.o CMakeFiles/test_lexer.dir/lexer/test_lexer.cpp.o -o test_lexer  ../src/lexer/libmathforge_lexer.a ../src/core/libmathforge_core.a -lgtest -lgtest_main
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\test_lexer.dir/objects.a
+C:\MinGW\mingw64\bin\ar.exe qc CMakeFiles\test_lexer.dir/objects.a @CMakeFiles\test_lexer.dir\objects1.rsp
+C:\MinGW\mingw64\bin\c++.exe -g --coverage -Wl,--whole-archive CMakeFiles\test_lexer.dir/objects.a -Wl,--no-whole-archive -o test_lexer.exe -Wl,--out-implib,libtest_lexer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_lexer.dir\linkLibs.rsp

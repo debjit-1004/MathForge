@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mathforge_core.dir/exceptions.cpp.o"
-  "CMakeFiles/mathforge_core.dir/exceptions.cpp.o.d"
-  "CMakeFiles/mathforge_core.dir/logger.cpp.o"
-  "CMakeFiles/mathforge_core.dir/logger.cpp.o.d"
-  "CMakeFiles/mathforge_core.dir/version_impl.cpp.o"
-  "CMakeFiles/mathforge_core.dir/version_impl.cpp.o.d"
+  "CMakeFiles/mathforge_core.dir/exceptions.cpp.obj"
+  "CMakeFiles/mathforge_core.dir/exceptions.cpp.obj.d"
+  "CMakeFiles/mathforge_core.dir/logger.cpp.obj"
+  "CMakeFiles/mathforge_core.dir/logger.cpp.obj.d"
+  "CMakeFiles/mathforge_core.dir/unicode_normalize.cpp.obj"
+  "CMakeFiles/mathforge_core.dir/unicode_normalize.cpp.obj.d"
+  "CMakeFiles/mathforge_core.dir/version_impl.cpp.obj"
+  "CMakeFiles/mathforge_core.dir/version_impl.cpp.obj.d"
   "libmathforge_core.a"
   "libmathforge_core.pdb"
 )

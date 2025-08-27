@@ -1,0 +1,4 @@
+CoreTests 0 0
+LexerTests 0 0
+---
+CoreTests

@@ -1,2 +1,2 @@
-/usr/bin/ar qc libmathforge_proof.a CMakeFiles/mathforge_proof.dir/verifier.cpp.o CMakeFiles/mathforge_proof.dir/proof_engine.cpp.o CMakeFiles/mathforge_proof.dir/logic_rules.cpp.o
-/usr/bin/ranlib libmathforge_proof.a
+C:\MinGW\mingw64\bin\ar.exe qc libmathforge_proof.a CMakeFiles/mathforge_proof.dir/verifier.cpp.obj CMakeFiles/mathforge_proof.dir/proof_engine.cpp.obj CMakeFiles/mathforge_proof.dir/logic_rules.cpp.obj
+C:\MinGW\mingw64\bin\ranlib.exe libmathforge_proof.a

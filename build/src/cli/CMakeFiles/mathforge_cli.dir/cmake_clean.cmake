@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mathforge_cli.dir/application.cpp.o"
-  "CMakeFiles/mathforge_cli.dir/application.cpp.o.d"
+  "CMakeFiles/mathforge_cli.dir/application.cpp.obj"
+  "CMakeFiles/mathforge_cli.dir/application.cpp.obj.d"
   "libmathforge_cli.a"
   "libmathforge_cli.pdb"
 )
