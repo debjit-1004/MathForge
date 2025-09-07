@@ -53,6 +53,18 @@ Check open issues and labels like `gssoc25`, `level1`, `level2`, `level3` for di
 - Logging via `Logger` (LOG_* macros) — keep messages actionable.
 - Clear errors with location; throw domain exceptions (LexicalException, SyntaxException, etc.).
 
+### Code Formatting
+
+This project enforces a consistent C++ style using **clang-format**.
+
+- The style is defined in the [.clang-format](.clang-format) file (LLVM base).
+- CI will fail if code is not formatted.
+- To format your code locally, run:
+
+```bash
+clang-format -i src/**/*.cpp include/**/*.h
+```
+
 ## Testing
 - Add unit tests in `tests/` using GoogleTest.
 - Include at least: happy path + 1–2 edge cases.
