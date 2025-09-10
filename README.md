@@ -4,6 +4,7 @@ A Modern C++20 Mathematical Proof Language Compiler
 [![Build Status](https://github.com/debjit-1004/MathForge/workflows/CI/badge.svg)](https://github.com/debjit-1004/MathForge/actions)
 [![Coverage Status](https://codecov.io/gh/debjit-1004/MathForge/branch/master/graph/badge.svg)](https://codecov.io/gh/debjit-1004/MathForge)
 [![License](https://img.shields.io/github/license/debjit-1004/MathForge)](LICENSE)
+![CI](https://github.com/debjit-1004/MathForge/actions/workflows/ci.yml/badge.svg)
 
 ## Overview
 
